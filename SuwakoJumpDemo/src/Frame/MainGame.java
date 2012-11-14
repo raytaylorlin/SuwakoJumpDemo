@@ -9,8 +9,8 @@ public class MainGame extends JFrame {
     public static final int GAME_FIELD_HEIGHT = 600;
     public static final int GAME_SCORE_BAR_HEIGHT = 40;
     public static final int GAME_FRAME_RATE = 25;
-    public static final int WINDOW_X_OFFSET = 20;
-    public static final int WINDOW_Y_OFFSET = 36;
+    public static final int WINDOW_X_OFFSET = 10;
+    public static final int WINDOW_Y_OFFSET = 30;
 
     private Timer timer;
     private GameTimeTask gameTimeTask;

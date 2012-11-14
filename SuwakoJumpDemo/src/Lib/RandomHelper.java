@@ -1,9 +1,10 @@
 package Lib;
 
+import java.util.Date;
 import java.util.Random;
 
 public class RandomHelper {
-    private static Random random = new Random(97);
+    private static Random random = new Random(new Date().getTime());
 
     public static float getRandom() {
         return random.nextFloat();
